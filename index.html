@@ -9,43 +9,45 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
       <h1>HTML & CSS Basics Summary</h1>
-      <img src="html-css.png" alt="HTML & CSS LOGOS" />
+      <img src="images/html-css.png" alt="HTML & CSS LOGOS" />
     </header>
     <main>
-      <h2>HTML Summary</h2>
-      <p>
-        HTML (HyperText Markup Language) is used to define our page
-        content,structure and meaning. You
-        <span class="hight-light">don't</span> use it for styling purposes. Use
-        CSS for that instead!
-      </p>
-      <ul id="html-list">
-        <li class="extra-importance">
-          HTML uses "elements to discribe (annotate) content
-        </li>
-        <li>
-          HTML elements typically have an opening tag, content, closing tag
-        </li>
-        <li class="extra-importance">
-          You can also have void (emoty) elements like images
-        </li>
-        <li class="extra-importance">
-          You can configure elements with attribute
-        </li>
-      </ul>
-      <p>
-        Learn more about all available HTML elements on
-        <a href="https://developer.mozilla.org/fr/"
-          >the MDN HTML elements reference</a
-        >.
-      </p>
-
-      <h2>CSS Summary</h2>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (HyperText Markup Language) is used to define our page
+          content,structure and meaning. You
+          <strong class="hight-light">don't</strong> use it for styling
+          purposes. Use CSS for that instead!
+        </p>
+        <ul id="html-list">
+          <li class="extra-importance">
+            HTML uses "elements to discribe (annotate) content
+          </li>
+          <li>
+            HTML elements typically have an opening tag, content, closing tag
+          </li>
+          <li class="extra-importance">
+            You can also have void (emoty) elements like images
+          </li>
+          <li class="extra-importance">
+            You can configure elements with attribute
+          </li>
+        </ul>
+        <p>
+          Learn more about all available HTML elements on
+          <a href="https://developer.mozilla.org/fr/"
+            >the MDN HTML elements reference.</a
+          >
+        </p>
+      </section>
+<section>
+<h2>CSS Summary</h2>
       <p>CSS (Cascating Style Sheets) is use for styling your page content.</p>
       <ul id="css-list">
         <li>Styles are assignef via property-value pairs</li>
@@ -71,8 +73,11 @@
       </p>
     </main>
     <footer>
-      <a href="html-css-basics-summary.pdf">Dowload PDF Symmary</a>
-      <p>(c) 100 Day Challenge</p>
+      <a class="button" href="pdfs/html-css-basics-summary.pdf" target="_blank"
+        >Dowload PDF Symmary</a
+      >
+      <p>(c) 100 Day Challenge.</p>
+    </section>      
     </footer>
   </body>
 </html>
