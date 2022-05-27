@@ -1,5 +1,5 @@
-#HTML & CSS Basics - First Summary
-##HTML Summary
+# HTML & CSS Basics - First Summary
+## HTML Summary
 
 * What & Why?
 * HTML Element Anatomy
@@ -7,7 +7,7 @@
 * HTML Structure & Skeleton
 * Inline vs Block Elements
   ...
-  ##CSS Summary
+## CSS Summary
 * What & Why?
 * CSS Syntax
 * What Can You Style?
